@@ -1,0 +1,5 @@
+--require chai
+--require sinon-chai
+--reporter spec
+--ui bdd
+--debug
