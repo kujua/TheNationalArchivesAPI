@@ -1,0 +1,72 @@
+body {
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.infoparagraph {
+    font-size: 1.2em;
+  font-family: "ff-meta-serif-web-pro";
+}
+
+.exerciseinfoparagraph {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 6px;
+    margin-left: 40px;
+    font-family: "ff-meta-serif-web-pro";
+}
+.infoparagraphpadded {
+    padding-top: 13px;
+  font-family: "ff-meta-serif-web-pro";
+}
+
+.headertitle {
+    font-family: "ff-meta-serif-web-pro";
+    margin-bottom: 1px;
+    padding: 10px 20px 1px;
+}
+
+legend {
+    padding-top: 20px;
+    margin-bottom: 8px;
+  font-family: "ff-meta-serif-web-pro";
+}
+
+legend + .control-group {
+    margin-top: 0px;
+}
+
+.controls {
+    margin-left: 60px;
+}
+
+ul {
+    font-size: 1.1em;
+}
+
+.questionsubtitle {
+    margin: 0 0 3px;
+  font-family: "ff-meta-serif-web-pro";
+}
+
+.bgimage {
+    opacity:0.2;
+    filter:alpha(opacity=20); /* For IE8 and earlier */
+    background-image: url('/public/images/kujua_bg.gif');
+    background-position: 0,0;
+    background-size: 400px;
+    background-repeat: no-repeat;
+    height: 130px;
+    position: absolute;
+    top: 250px;
+    left: 20%;
+    z-index: -1;
+    heigth: 400px;
+    width: 400px;
+}
+
+#btnCheckYourResults {
+    margin-left: 40px;;
+}
+

@@ -3,6 +3,7 @@
  * v0.1.x
  * Jan 2013
  */
+"use strict";
 var express = require('express'),
     routes = require('./routes'),
     http = require('http');
@@ -28,7 +29,10 @@ app.configure('production', function(){
 });
 
 app.get('/', routes.index);
+app.get('/simplebrowse', routes.simplebrowse);
+app.get('/simplesearch', routes.simplesearch);
+app.get('/integration', routes.integration);
 
-var port = process.env.PORT || 8060;
+var port = process.env.PORT || 8070;
 var server = http.createServer(app).listen(port);
 console.log("Express server listening on port %d in %s mode with node version", server.address().port, app.settings.env, process.version);

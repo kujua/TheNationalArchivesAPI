@@ -5,10 +5,8 @@ var should = chai.should();
 
 chai.use(sinonChai);
 
-describe('Score', function(){
-    it('should return -1 when no exam result object passed', function(done){
-        var ret = exam.check();
-        ret.should.equal(-1);
+describe('Always Succeeds', function(){
+    it('should succeed, because only boilerplate', function(done){
         done();
     });
 

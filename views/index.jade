@@ -2,6 +2,9 @@
 //- v0.1.x
 //- Jan 2013
 
-p
-    span Informationassets:&nbsp;&nbsp;
-    !{o.IAID}
+extends layout
+
+block content
+    p
+        span Informationassets:&nbsp;&nbsp;
+        !{o.getProperty('IAID')}
